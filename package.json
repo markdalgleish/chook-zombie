@@ -1,0 +1,37 @@
+{
+  "name": "chook-zombie",
+  "description": "Zombie browser for Chook",
+  "version": "0.0.1",
+  "homepage": "https://github.com/markdalgleish/chook-zombie",
+  "author": {
+    "name": "Mark Dalgleish",
+    "url": "http://markdalgleish.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/markdalgleish/chook-zombie.git"
+  },
+  "bugs": {
+    "url": "https://github.com/markdalgleish/chook-zombie/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/markdalgleish/chook-zombie/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/chook-zombie",
+  "engines": {
+    "node": "~0.8.2"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "zombie": "~1.3.1"
+  },
+  "devDependencies": {
+    "grunt": "~0.3.9"
+  },
+  "keywords": []
+}
